@@ -2,6 +2,7 @@ import FeaturedCourses from "@/components/FeaturedCourses";
 import HeroSection from "@/components/HeroSection";
 import { MovingCards } from "@/components/MovingCards";
 import { Scrolling } from "@/components/Scrolling";
+import { Tooltip } from "@/components/Tooltip";
 import {UpcomingWebinars} from "@/components/UpcomingWebinars";
 import Image from "next/image";
 
@@ -13,6 +14,7 @@ export default function Home() {
       <Scrolling/>
       <MovingCards />
       <UpcomingWebinars />
+      <Tooltip />
     </main>
   );
 }
