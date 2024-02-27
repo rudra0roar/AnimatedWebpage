@@ -2,7 +2,6 @@ import React from 'react'
 import Link from 'next/link'
 import { Spotlight } from './ui/Spotlight'
 import { Button } from './ui/moving-border'
-import { BackgroundGradient } from './ui/background-gradient'
 
 export default function HeroSection() {
     return (

@@ -7,7 +7,6 @@ import Link from "next/link";
 export default function Navbar({ className }: { className?: string }) {
 
   const [active, setActive] = useState<string | null>(null)
-  console.log("active kya show kar rha hai" , active);
 
   return (
     <div
